@@ -1,0 +1,19 @@
+---
+title: "ggplot2 demo"
+date: "5/22/2021"
+format: html
+---
+
+## Air Quality
+
+There is a relationship between temperature and the ozone level.
+
+```{r}
+#| label: fig-airquality
+#| warning: false
+#| echo: false
+library(ggplot2)
+ggplot(airquality, aes(Temp, Ozone)) + 
+  geom_point() + 
+  geom_smooth(method = "loess")
+```
