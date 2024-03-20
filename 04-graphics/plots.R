@@ -3,6 +3,7 @@ plot(1:10, 1:10, type = "b", pch = 6)
 plot(1:10, 1:10, type = "l", pch = 6)
 
 lines(1:10, 1:10)
+lines(1:10, 1:10, type = "b", pch = 6)
 
 library(ggplot2)
 library(palmerpenguins)
@@ -30,6 +31,6 @@ ggplot(data = penguins,
 
 # Run a couple of times to 
 # demo how the plot changes depending on the Plot window
-ggsave(here::here("R", "fancy-plot-big.pdf"))
+ggsave(here::here("R", "fancy-plot.pdf"))
 
 # Demo of Export from plot window

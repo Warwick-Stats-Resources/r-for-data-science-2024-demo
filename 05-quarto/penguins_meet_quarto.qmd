@@ -41,17 +41,3 @@ ggplot(penguins,
   ) +
   theme_minimal()
 ```
-
-| Col1 | Col2 | Col3 |
-|------|------|------|
-| x    | x    | x    |
-| y    | y    | y    |
-| z    | z    | z    |
-
-: A new table
-
-::: {.callout-warning icon="false"}
-## My note
-
-This is a note
-:::
